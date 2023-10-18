@@ -82,7 +82,7 @@ This will be a persistent state variable, so this is actually getting written to
 
 So if we were to write and deploy this contract (which you can do in the Stacks Explorer if you like), as soon as it gets deployed, it will run through the contract line by line executing anything at the root level.
 
-Remember that Clarity is interpreted, not compiled, so there's not compile step when developing Clarity contracts.
+Remember that Clarity is interpreted, not compiled, so there's no compile step when developing Clarity contracts.
 
 So this `define-data-var` will be evaluated and the `count` variable will be initialized with a value of 0.
 
